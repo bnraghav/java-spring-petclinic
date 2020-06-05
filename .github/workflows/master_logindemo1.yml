@@ -28,5 +28,5 @@ jobs:
       with:
         app-name: 'logindemo1'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_fec9f51ef79f4fd1b7330f3593185734 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_1badb49c2532421ebdb2eaa510483868 }}
         package: '${{ github.workspace }}/target/*.jar'
